@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard - Hostel Management</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <style>
+    body { font-family: 'Poppins', sans-serif; background: #eef2f3; margin: 0; }
+    header, footer { background: #333; color: white; text-align: center; padding: 15px; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    .dashboard { max-width: 800px; margin: 40px auto; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+    .dashboard h2 { margin-bottom: 20px; }
+    .dashboard a.button {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 20px;
+      background: #007BFF;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .dashboard a.button:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🏨 Hostel Management Dashboard</h1>
+    <nav>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="logout.html">Logout</a>
+    </nav>
+  </header>
+  <div class="dashboard">
+    <h2>Welcome, Student</h2>
+    <a href="allotment.html" class="button">Room Allotment</a>
+    <a href="report_issue.html" class="button">Report Issue</a>
+    <a href="payment.html" class="button">Make Payment</a>
+  </div>
+  <footer>
+    &copy; 2025 Hostel Management System. All rights reserved.
+  </footer>
+</body>
+</html>
